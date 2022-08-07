@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "./finicounter.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "finicounter.py"
+    }
+  ]
+}
