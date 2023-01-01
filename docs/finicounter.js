@@ -1,5 +1,5 @@
 async function getViews() {
-    let url = "https://finicounter.vercel.app/counter?host=" + window.location.hostname;
+    let url = "https://finicounter.eu.org/counter?host=" + window.location.hostname;
     try {
         let res = await fetch(url);
         return await res.json();
