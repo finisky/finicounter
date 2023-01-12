@@ -1,8 +1,8 @@
 {
   "redirects": [
     { 
-      "source": "/:path*",
-      "destination": "https://finicounter.eu.org/:path*",
+      "source": "/(.*)",
+      "destination": "https://finicounter.eu.org/$1",
       "statusCode": 301
     }
   ]
