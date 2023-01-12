@@ -1,14 +1,9 @@
 {
-  "builds": [
-    {
-      "src": "./finicounter.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "finicounter.py"
+  "redirects": [
+    { 
+      "source": "/:path*",
+      "destination": "https://finicounter.eu.org/:path*",
+      "statusCode": 301
     }
   ]
 }
