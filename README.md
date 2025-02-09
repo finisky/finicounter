@@ -60,5 +60,4 @@ hexo.extend.filter.register('theme_inject', function(injects) {
 
 ## 已知问题
 
-* 重置计数器：如希望删除或重置计数器，可在这里提 Issue 或发邮件 (邮件在 [这里](https://finisky.eu.org/links/))。
-* 初始化计数器 (todo)：每个key可在第一次被创建后的3天内初始化一次。
+* 重置计数器：如希望删除、初始化或重置计数器，可在这里提 Issue 或发邮件 (邮件在 [这里](https://finisky.eu.org/links/))。
