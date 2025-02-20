@@ -35,11 +35,17 @@ FiniCounter is:
 
 You are done! The view count will be shown on your site like this `12,345,678`.
 
-**Notice**: the script should be added to **every** pages of your website. Otherwise, the page view counter might missing counts.
+**Attention**: the script should be added to **every** pages of your website. Otherwise, the page view counter might missing counts.
 
-It is also welcome to directly use the counter API `https://finicounter.eu.org/counter?host=xxx.com` and customize the javascript yourself.
+It is OK to directly use the counter API `https://finicounter.eu.org/counter?host=xxx.com` and customize the javascript yourself.
 
-**Each counter will be automatically deleted if not accessed for more than 3 months.**
+API Restrictions:
+The host parameter must be a valid domain name with a string length of less than 50 characters. IP addresses are not supported.
+
+### Notes
+
+* The service includes monitoring. Abnormal traffic or abuse may result in a ban.
+* If a website's count remains unchanged for three months, it may be automatically cleared.
 
 ### Hexo NexT Theme Integration
 
